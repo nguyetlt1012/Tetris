@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+}
+
+
+.gird{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(157, 224, 168);
+    display: flex;
+    flex-wrap: wrap;
+}
+.ok{
+    border: 1px solid wheat; 
+    border-radius: 1px;
+}
+.gird div{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+   
+    /* background-color: red; */
+}
+.tetromino {
+    background-color : blue ;
+}
+.mini-gird {
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    background-color: rgb(157, 224, 168);
+    flex-wrap: wrap;
+}
+.mini-gird div{
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+    border: 1px solid wheat; 
+}
+/* .taken{
+    box-sizing: border-box;
+    border:1px solid blanchedalmond;
+} */
